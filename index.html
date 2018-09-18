@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Crystal Collector!</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css" media="screen">
+    <!-- Reset stylesheet -->
+    <link rel="stylesheet" href="assets/css/reset.css" media="screen">
+    <!-- Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="title">
+            <div id="titleName">Crystals Collector!</div>
+        </div>
+        <div class="instruction">
+            <div id="instructionContents">
+                <p>You will be givin a random number at the start of the game.</p>
+                <p>There are four crystals below. By clicking on a crystal you will add a soecific amount of points to your
+                    total score.</p>
+                <p>You win the game by matching your total score to random number, you lose the game if your total score
+                    goes above the random number.</p>
+                <p>The value of each crystal is hidden from your until you click on it.</p>
+                <p>Each time when the game starts, the game will change the values of each crystal.</p>
+            </div>
+        </div>
+        <div class="scoreContainer">
+            <div class="col-md-6" id="goal"></div>
+            <div class="col-md-6" id="score">
+                <div id="wins"></div>
+                <div id="losses"></div>
+            </div>
+        </div>
+
+        <div id="button">
+            <div class="col-md-3" id="button1">
+                <img src="assets/images/stone1.png" alt="1">
+            </div>
+            <div class="col-md-3" id="button2">
+                <img src="assets/images/stone2.png" alt="2">
+            </div>
+            <div class="col-md-3" id="button3">
+                <img src="assets/images/stone3.png" alt="3">
+            </div>
+            <div class="col-md-3" id="button4">
+                <img src="assets/images/stone4.png" alt="4">
+            </div>
+        </div>
+
+        <div class="message">
+            <p>Your total score is...</p>
+        </div>
+        <div id="currentScore"></div>
+
+    </div>
+
+    <!-- jQuery Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Script -->
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</body>
+
+</html>

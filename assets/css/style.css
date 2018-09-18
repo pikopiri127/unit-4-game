@@ -1,0 +1,118 @@
+html {
+    /* Positioning */
+    position: relative; 
+    /* Box-model */
+    min-height: 100%;
+}
+
+body {
+    background-image: url("/Users/jaipy724/code/ucf/homework/unit-4-game/assets/images/ignasi_pattern_s.png"); 
+    font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+.title {
+    background: orange;
+    margin: 10px;
+    height: 100px;
+    position: relative;
+  }
+
+#titleName{
+    color:white;
+    font-weight: bold;
+    font-size: 30px;
+    text-align:center;
+    line-height:100px;
+}
+
+.instruction{
+    background:peachpuff;
+    margin: 10px;
+}
+
+#instructionContents{
+    padding: 10px;  
+    color: green;
+    font-weight: bold;
+}
+
+.scoreContainer {
+    overflow: hidden;
+    margin: 10px;
+}
+
+#goal{
+    background: green;
+    font-weight: bold;
+    font-size: 30px;
+    position: relative;
+    float: left;
+    height: 120px;
+    padding: 10px;
+}
+
+#score{
+    float: left;
+    height: 120px;
+}
+
+#wins{
+    background: pink;
+    height: 60px;
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+#losses{
+    background: pink;
+    height: 60px;
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+#button{
+    background: black;
+    overflow: hidden;
+    margin: 10px;
+}
+
+#button1{
+    position: relative;
+    float:left;
+}
+
+#button2{
+    position: relative;
+    float:left;
+}
+
+#button3{
+    position: relative;
+    float:left;
+}
+
+#button4{
+    position: relative;
+    float:left;
+}
+
+.message{
+    background-color: greenyellow;
+    color: black;
+    margin: 10px;
+    font-weight: bold;
+}
+
+#currentScore{
+    background-color: greenyellow;
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+    height: 60px;
+    margin: 10px;
+    padding: 10px;
+}
